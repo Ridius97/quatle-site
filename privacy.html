@@ -9,7 +9,7 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="updated">Quatle, the online multiplayer quiz game. Version 0.1 (draft), 16 November 2026.</p>
+  <p class="updated">Quatle, the online multiplayer quiz game. Version 0.2 (draft), 26 November 2026.</p>
 
   <div class="card">
     <h2>1. Who is responsible</h2>
@@ -24,17 +24,18 @@
       <li><strong>Profile and game:</strong> avatar, level, XP, wins, losses, draws, your battles, the answers you give and how long they take, the categories you choose. Needed to run the game and show your profile and results.</li>
       <li><strong>Social:</strong> friends, friend requests, blocked players, chat messages (only between adults), and when you were last active in the app. Needed for the friends and chat features and to run the game.</li>
       <li><strong>Notifications:</strong> notifications in the app, your notification settings and, if you allow push notifications, a device token from Google Firebase Cloud Messaging.</li>
+      <li><strong>Crash reports:</strong> when the app crashes or hits an error, a technical report is sent to Google Firebase Crashlytics: the error and where in the app it happened, the app version, device model, operating system version, memory and storage size, whether the device is rooted, whether the app was in the background, the time, and random installation and session IDs created for crash reporting. We do <strong>not</strong> add your username, e-mail address or account ID to these reports. Needed to find and fix errors and keep the app stable and secure.</li>
       <li><strong>Questions:</strong> questions you suggest and reports about questions, and whether you want your name shown on approved questions.</li>
       <li><strong>Safety:</strong> reports you send or receive, moderation decisions, appeals, and the automatic chat pause. When a moderator reviews a chat report, they can read the last messages of that one conversation; every such review is logged.</li>
     </ul>
-    <p>We do <strong>not</strong> use advertising, analytics or tracking tools, and we do not sell your data.</p>
+    <p>We do <strong>not</strong> use advertising, analytics or tracking tools (crash reports are used only to fix errors, not to follow what you do), and we do not sell your data.</p>
   </div>
 
   <div class="card">
     <h2>3. Legal bases (GDPR article 6)</h2>
     <ul>
       <li><strong>Contract:</strong> account, game, friends, chat and notifications in the app, because you asked us to provide Quatle.</li>
-      <li><strong>Legitimate interest and legal duties:</strong> age check, reports, moderation, protection against misuse and cheating, and keeping safety records, to protect players and meet our obligations under the EU Digital Services Act.</li>
+      <li><strong>Legitimate interest and legal duties:</strong> age check, reports, moderation, protection against misuse and cheating, keeping safety records, and crash reports to keep the app working and secure, to protect players and meet our obligations under the EU Digital Services Act.</li>
       <li><strong>Consent:</strong> push notifications, which you allow or refuse in your phone's settings, and the author name on your questions, which you can switch off at any time.</li>
     </ul>
   </div>
@@ -44,7 +45,7 @@
     <ul>
       <li>Other players see your username, avatar, level and game results. Chat messages are seen by the other player of the conversation.</li>
       <li>Moderators see reports and, for a chat report, the reported conversation, only to decide on the report.</li>
-      <li>Service providers that run Quatle for us: <strong>Supabase</strong> (database, sign-in, servers; our project is hosted in the EU, Frankfurt) and <strong>Google Firebase Cloud Messaging</strong> (delivers push notifications).</li>
+      <li>Service providers that run Quatle for us: <strong>Supabase</strong> (database, sign-in, servers; our project is hosted in the EU, Frankfurt) <strong>Google Firebase Cloud Messaging</strong> (delivers push notifications) and <strong>Google Firebase Crashlytics</strong> (receives crash reports).</li>
       <li>Authorities, only where the law requires it, for example when information suggests a threat to someone's life or safety.</li>
     </ul>
     <p>Our providers may process some data outside the EU (for example in the United States). In that case they rely on safeguards recognised by EU law, such as the European Commission's Standard Contractual Clauses or the EU-US Data Privacy Framework.</p>
@@ -58,6 +59,7 @@
       <li>Automatic chat pauses and measures against unfounded reports: 6 months after they ended.</li>
       <li>After you delete your account: your username stays reserved for 90 days; if your account was suspended or banned, a protected (hashed) form of your e-mail address is kept until the suspension ends, or 24 months after a ban, so it cannot sign up again; a record that the account was deleted is kept for 24 months.</li>
       <li>Push tokens: until you sign out, the token changes or you delete your account.</li>
+      <li>Crash reports: 90 days at Google Firebase Crashlytics, then they are deleted.</li>
     </ul>
   </div>
 
